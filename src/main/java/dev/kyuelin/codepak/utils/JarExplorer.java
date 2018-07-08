@@ -1,19 +1,9 @@
 package dev.kyuelin.codepak.utils;
 
-import org.apache.log4j.Level;
-import sun.security.ssl.Debug;
-
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.jar.JarFile;
-import java.util.jar.JarInputStream;
 import java.util.logging.Logger;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;

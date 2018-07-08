@@ -5,16 +5,16 @@ import dev.kyuelin.codepak.model.JavaField;
 import dev.kyuelin.codepak.model.JavaMethod;
 import dev.kyuelin.codepak.model.JavaPackage;
 
-import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
 
 public class JavaClassParser {
 
